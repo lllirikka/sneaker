@@ -1,3 +1,14 @@
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Bold.ttf);
+    font-weight: 700;
+  }
+  
+  @font-face {
+    font-family: "Anonymous Pro";
+    src: url(fonts/AnonymousPro-Regular.ttf);
+  }
+
 *{
     margin: 0;
     padding: 0;
@@ -7,10 +18,18 @@ body{
     background: rgb(241, 241, 241);
     
 }
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+  }
 
 .container{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     width: 100%;
     max-width: 1440px;
     gap: 24px;
@@ -23,16 +42,23 @@ body{
     flex-direction: column;
     margin-top: 25px;
     margin-bottom: 25px;
+    max-width: 1440px;
+    gap: 24px;
+    text-align: start;
 
 }
 
+.kol{
+    width: 144ch;
+}
 h2{
     color: var(--black, #121723);
     font-family: IBM Plex Mono;
     font-size: 48px;
     font-style: normal;
-    font-weight: 500;
-    line-height: 100%; /* 48px */
+    font-weight: 700;
+    line-height: 48px; /* 48px */
+    margin-top: 25px;
     
 }
 
@@ -58,13 +84,18 @@ h2{
 
 .sneaker{
     border-radius: 12px;
-    background-color: white;
-    margin-top: 24px;
-    padding-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
 }
 
 .sneaker__descr{
-    margin: 32px 24px;
+    padding: 32px 24px;
+    background-color: white;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    width: 322px;
 }
 
 header{
@@ -73,23 +104,9 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding:  30px 140px 54px;
+    padding:  30px 45px 54px;
 }
 
-footer{
-    height: 150px;
-    background: var(--black, #121723);
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 32px 140px 87.68px;
-}
-
-.line{
-    width: 1160px;
-    height: 1px;
-    background: rgba(230, 232, 236, 0.40);
-}
 
 .socials-link a{
     text-decoration: none;
@@ -129,3 +146,46 @@ li {
     font-weight: 700;
     line-height: normal;
 }
+
+
+footer{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    background: var(--black, #121723);
+    
+}
+
+.footer__content {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+
+.line {
+    width: 100%;
+    border-top: 1px solid #ccc;
+    margin-top: 20px; 
+    width: 65vw;
+    height: 0.05vw;
+    background: rgba(230, 232, 236, 0.40);
+}
+  
+  
+.footer__lower-text {
+    text-align: center;
+    margin-top: 10px;
+    color: var(--text_gray, #A1A6B4);
+    font-family: Anonymous Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
