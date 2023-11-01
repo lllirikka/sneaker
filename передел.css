@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(241, 241, 241);
+    
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1440px;
+    gap: 24px;
+
+}
+
+.cotent-cards{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+h2{
+    color: var(--black, #121723);
+    font-family: IBM Plex Mono;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 48px */
+    
+}
+
+.title{
+    width: 323px;
+    color: var(--black, #121723);
+    font-family: Anonymous Pro;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.text{
+    align-self: stretch;
+    color: var(--black, #121723);
+    font-family: Anonymous Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sneaker{
+    border-radius: 12px;
+    background-color: white;
+    margin-top: 24px;
+    padding-bottom: 24px;
+}
+
+.sneaker__descr{
+    margin: 32px 24px;
+}
+
+header{
+    background: var(--white, #FFF);
+    height: 110px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:  30px 140px 54px;
+}
+
+footer{
+    height: 150px;
+    background: var(--black, #121723);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 32px 140px 87.68px;
+}
+
+.line{
+    width: 1160px;
+    height: 1px;
+    background: rgba(230, 232, 236, 0.40);
+}
+
+.socials-link a{
+    text-decoration: none;
+    color: #000;
+    font-family: Anonymous Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.socials{
+    display: flex;
+    gap: 24px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.picture-logo{
+    flex-shrink: 0;
+    fill: var(--white, #FFF);
+}
+
+.socials_down{
+    display: flex;
+    gap: 24px;
+}
+
+.socials-link_down a{
+    text-decoration: none;
+    color: var(--white, #FFF);
+    font-family: Anonymous Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
