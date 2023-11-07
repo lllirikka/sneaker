@@ -189,3 +189,159 @@ footer{
     line-height: normal;
   }
 
+  .sneaker-big{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    background: white;
+    border-radius: 50px;
+    padding: 48px;
+    width: 1044px;
+    height: 1492px;
+}
+
+.sneaker-big_img{
+    width: 100%;
+    height: 600px;
+    align-self: stretch;
+    border-radius: 50px 50px 0px 0px;
+}
+
+.sneaker-big_name{
+    align-self: stretch;
+    color: var(--black, #121723);
+    font-family: Anonymous Pro;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 48px */
+}
+
+.sneaker-big_name2{
+    align-self: stretch;
+    color: var(--black, #121723);
+    font-family: Anonymous Pro;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 36px */
+}
+
+.sneaker-big_descr{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.sneaker-big_info{
+    display: flex;
+    gap: 32px;
+
+}
+
+
+.history_text{
+    color: var(--black, #121723);
+    font-family: Anonymous Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+    width: 506px;
+    height: auto;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 506px;
+    height: auto;
+}
+
+.line2{
+    height: 1px;
+    align-self: stretch;
+    background: var(--black, #121723);
+    width: 100%;
+}
+
+.about_tovar{
+    color: var(--black, #121723);
+    font-family: Anonymous Pro;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+
+.price_right{
+    text-align: right;
+    color: var(--black, #121723);
+    font-family: Anonymous Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.price_left{
+    color: var(--black, #121723);
+    font-family: Anonymous Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.price_roz{
+    display: flex;
+    justify-content: space-between;
+}
+
+.material{
+    display: flex;
+    justify-content: space-between;
+}
+
+.roz_left{
+    color: var(--black, #121723);
+    font-family: Anonymous Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.roz_right{
+    color: var(--black, #121723);
+    text-align: right;
+    font-family: Anonymous Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.material_left{
+    color: var(--black, #121723);
+    font-family: Anonymous Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.material_right{
+    color: var(--black, #121723);
+    text-align: right;
+    font-family: Anonymous Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
