@@ -48,6 +48,11 @@ main {
 
 }
 
+.logophoto{
+    width: 212px;
+    height: 63px;
+}
+
 .kol{
     width: 144ch;
 }
@@ -130,6 +135,8 @@ li {
 .picture-logo{
     flex-shrink: 0;
     fill: var(--white, #FFF);
+    width: 299.653px;
+    height: 22.32px;
 }
 
 .socials_down{
@@ -230,6 +237,11 @@ footer{
     display: flex;
     flex-direction: column;
     gap: 24px;
+}
+
+.img{
+    width: 370px;
+    height: 254px;
 }
 
 .sneaker-big_info{
@@ -345,3 +357,109 @@ footer{
     font-weight: 400;
     line-height: normal;
 }
+
+.sneaker:hover{
+    transform: translate(0, -10px);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    
+}
+
+@media screen and (max-width: 375px){
+    footer{
+        height: 343px;
+        width: 800px;
+        padding: 0 16px;
+    }
+
+    .footer__content{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: 195px;
+        gap: 32px;
+        margin-top: 32px;
+        margin-bottom: 24px;
+    }
+
+    .socials_down{
+        display: flex;
+        column-gap: 50px;
+    }
+
+    .socials-link_down a{
+        text-decoration: none;
+        color: var(--white, #FFF);
+        font-family: Anonymous Pro;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .picture-logo{
+        height: 100%;
+        width: 600px;
+    }
+
+    .line{
+        width: 800px;
+    }
+
+    .footer__lower-text{
+        text-align: center;
+        margin-top: 10px;
+        color: var(--text_gray, #A1A6B4);
+        font-family: Anonymous Pro;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .footer__lower{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        margin-bottom: 24px;
+    }
+
+    header{
+        height: 343px;
+        width: 800px;
+        padding: 0 16px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        justify-content: center;
+        gap: 24px;
+    }
+
+    .logophoto{
+        height: 100%;
+        width: 400px;
+    }
+
+    .socials{
+        display: flex;
+        column-gap: 55px;
+    }
+
+    .socials-link a{
+        text-decoration: none;
+        color: #000;
+        font-family: Anonymous Pro;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .cotent-cards{
+        width: 100%;
+        max-width: 375px;
+        display: flex;
+        justify-content: center;
+    }
+
+   
