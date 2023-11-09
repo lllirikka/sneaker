@@ -97,10 +97,11 @@ h2{
 
 .sneaker__descr{
     padding: 32px 24px;
+    width: 322px;
     background-color: white;
     border-bottom-right-radius: 12px;
     border-bottom-left-radius: 12px;
-    width: 322px;
+   
 }
 
 header{
@@ -365,8 +366,16 @@ footer{
 }
 
 @media screen and (max-width: 375px){
+
+    *{
+        box-sizing: border-box;
+    }
+
     footer{
-        height: 343px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
         width: 800px;
         padding: 0 16px;
     }
@@ -374,23 +383,23 @@ footer{
     .footer__content{
         display: flex;
         flex-direction: column;
+        justify-content: center;
         width: auto;
-        height: 195px;
-        gap: 32px;
+        height: 100%;
+        gap: 24px;
         margin-top: 32px;
-        margin-bottom: 24px;
     }
 
     .socials_down{
         display: flex;
-        column-gap: 50px;
+        column-gap: 24px;
     }
 
     .socials-link_down a{
         text-decoration: none;
         color: var(--white, #FFF);
         font-family: Anonymous Pro;
-        font-size: 35px;
+        font-size: 18px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -401,16 +410,13 @@ footer{
         width: 600px;
     }
 
-    .line{
-        width: 800px;
-    }
 
     .footer__lower-text{
         text-align: center;
         margin-top: 10px;
         color: var(--text_gray, #A1A6B4);
         font-family: Anonymous Pro;
-        font-size: 30px;
+        font-size: 16px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -419,47 +425,94 @@ footer{
     .footer__lower{
         display: flex;
         flex-direction: column;
-        gap: 24px;
+        justify-content: center;
+        gap: 10px;
         margin-bottom: 24px;
+        width: 100%;
     }
 
     header{
-        height: 343px;
-        width: 800px;
-        padding: 0 16px;
+        height: 100%;
         display: flex;
         flex-direction: column;
-        padding-top: 24px;
-        padding-bottom: 24px;
         justify-content: center;
         gap: 24px;
-    }
-
-    .logophoto{
-        height: 100%;
-        width: 400px;
+        padding: 24px;
     }
 
     .socials{
         display: flex;
-        column-gap: 55px;
+        column-gap: 10px;
     }
 
     .socials-link a{
         text-decoration: none;
         color: #000;
         font-family: Anonymous Pro;
-        font-size: 35px;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        width: 100%;
+    }
+
+    .cotent-cards{
+        width: 100%;
+        max-width: 343px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .kol{
+        width: auto;
+        margin-left: 15px;
+    }
+
+    .header, .footer{
+        width: 100%;
+    }
+    
+    .logophoto{
+        width: 215px;
+    }
+    
+    .picture-logo{
+        width: 300px;
+    }
+    
+    .line{
+        width: 100%;
+    }
+    
+    .img{
+        width: 328px;
+        height: 254px;
+    }
+
+    .sneaker__descr{
+        width: 328px;
+        height: 100%;
+    }
+
+    .title{
+        color: var(--black, #121723);
+        font-family: Anonymous Pro;
+        font-size: 24px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
     }
 
-    .cotent-cards{
-        width: 100%;
-        max-width: 375px;
-        display: flex;
-        justify-content: center;
+    .text{
+        color: var(--black, #121723);
+        font-family: Anonymous Pro;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
     }
 
-   
+
+}
+
+
