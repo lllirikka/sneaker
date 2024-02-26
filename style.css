@@ -92,13 +92,13 @@ h2{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    background-color: white;
     
 }
 
 .sneaker__descr{
     padding: 32px 24px;
-    width: 322px;
-    background-color: white;
+    width: 322px;   
     border-bottom-right-radius: 12px;
     border-bottom-left-radius: 12px;
    
